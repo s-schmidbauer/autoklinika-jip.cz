@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto-Klinika JIP | Nový Bor</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #f4f4f4;
+    }
+    header {
+      background-color: #000;
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #d4af37; /* gold tone */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .contact {
+      background: #1a1a1a;
+      padding: 2rem;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #d4af37;
+      color: #000;
+      border: none;
+      padding: 0.8rem;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b68d2f;
+    }
+    .phone {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .social {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .social a {
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #d4af37;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background-color: #d4af37;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Auto-Klinika JIP</h1>
+    <p>Profesionální autoservis v Novém Boru</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>O nás</h2>
+      <p>
+        V Auto-Klinice JIP se staráme o vaše vozidlo s maximální pečlivostí.
+        Jsme mladý tým s vášní pro auta a kvalitu. Každý vůz pro nás znamená
+        víc než jen zakázku – je to výzva, kterou dovedeme k dokonalosti.
+        Nabízíme profesionální servis, moderní přístup a férové jednání.
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>Kontaktujte nás</h2>
+      <p class="phone">📞 +420 777 123 456</p>
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <input type="text" name="name" placeholder="Vaše jméno" required>
+        <input type="email" name="email" placeholder="Váš e-mail" required>
+        <textarea name="message" rows="5" placeholder="Vaše zpráva" required></textarea>
+        <button type="submit">Odeslat</button>
+      </form>
+      <div class="social">
+        <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+

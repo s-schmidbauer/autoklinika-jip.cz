@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto-Klinika JIP | Nový Bor</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #0b0b0b;
+      color: #f4f4f4;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(180deg, #000 0%, #111 100%);
+      border-bottom: 2px solid #d4af37;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #d4af37;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      line-height: 1.8;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #d4af37;
+      border-left: 4px solid #d4af37;
+      padding-left: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .about {
+      font-size: 1.1rem;
+      color: #ddd;
+      margin-bottom: 3rem;
+    }
+
+    .contact {
+      background: #111;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+    }
+
+    .phone {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #d4af37;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      background-color: #1a1a1a;
+      color: #f4f4f4;
+      border: 1px solid #333;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      font-size: 1rem;
+    }
+
+    input:focus, textarea:focus {
+      outline: 1px solid #d4af37;
+    }
+
+    button {
+      background-color: #d4af37;
+      color: #000;
+      border: none;
+      padding: 0.9rem;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background-color: #b8932c;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    .social a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: 500;
+      border: 1px solid #d4af37;
+      padding: 0.6rem 1rem;
+      border-radius: 50px;
+      transition: all 0.3s;
+    }
+
+    .social a:hover {
+      background-color: #d4af37;
+      color: #000;
+    }
+
+    .social svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Auto-Klinika JIP</h1>
+    <p>Vaše důvěra, naše preciznost</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>O nás</h2>
+      <p>
+        Auto-Klinika JIP v Novém Boru nabízí profesionální servis s důrazem na kvalitu a detail. 
+        Mladý tým s vášní pro automobily kombinuje moderní přístup s osobním jednáním. 
+        Každý vůz ošetřujeme tak, aby odjel v perfektní kondici — spolehlivý, čistý a připravený na další kilometry.
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>Kontaktujte nás</h2>
+      <p class="phone">📞 +420 777 123 456</p>
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <input type="text" name="name" placeholder="Vaše jméno" required>
+        <input type="email" name="email" placeholder="Váš e-mail" required>
+        <textarea name="message" rows="5" placeholder="Vaše zpráva" required></textarea>
+        <button type="submit">Odeslat</button>
+      </form>
+
+      <div class="social">
+        <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">
+
