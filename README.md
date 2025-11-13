@@ -1,0 +1,1 @@
+# autoklinika-jip.cz
