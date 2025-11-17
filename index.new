@@ -30,10 +30,10 @@
   "email": "autoklinikajip@gmail.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Tř. T. G. Masaryka 796",
+    "streetAddress": "V Parku",
     "addressLocality": "Nový Bor",
     "addressRegion": "Liberecký kraj",
-    "postalCode": "473 01",
+    "postalCode": "276 01",
     "addressCountry": "CZ"
   },
   "openingHours": "Mo-Fr 08:00-17:00",
@@ -158,7 +158,7 @@ footer{text-align:center; font-size:0.9rem; color:#888; padding:2rem 1rem; borde
 
 <p></p>
 
-  <address class="address">📍 Tř. T. G. Masaryka 796, 473 01 Nový Bor</address>
+  <address class="address">📍 V Parku, 276 01 Nový Bor</address>
 
     <!-- Google Maps Embed -->
   <iframe
