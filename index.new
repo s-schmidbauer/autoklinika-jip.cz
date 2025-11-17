@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto-Klinika JIP | Autoservis Nový Bor</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Auto-Klinika JIP – profesionální autoservis v Novém Boru. Opravy vozidel, diagnostika, údržba a kvalitní servis s osobním přístupem.">
+<meta name="keywords" content="autoservis Nový Bor, autoklinika Nový Bor, oprava aut Liberec, autoservis Liberecký kraj, servis vozidel, automechanik Nový Bor, kvalitní autoservis">
+<meta name="author" content="Auto-Klinika JIP">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Auto-Klinika JIP | Autoservis Nový Bor">
+<meta property="og:description" content="Profesionální autoservis v Novém Boru – kvalitní péče o váš vůz, moderní přístup, férové jednání.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://autoklinika-jip.cz">
+<meta property="og:image" content="https://autoklinika-jip.cz/og-image.jpg">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Auto-Klinika JIP",
+  "image": "https://autoklinika-jip.cz/logo.png",
+  "url": "https://autoklinika-jip.cz",
+  "telephone": "+420606534379",
+  "email": "autoklinikajip@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Tř. T. G. Masaryka 796",
+    "addressLocality": "Nový Bor",
+    "addressRegion": "Liberecký kraj",
+    "postalCode": "473 01",
+    "addressCountry": "CZ"
+  },
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "description": "Auto-Klinika JIP – kvalitní autoservis v Novém Boru. Opravy, diagnostika, údržba vozidel s důrazem na kvalitu a osobní přístup."
+}
+</script>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0; background:#0b0b0b; color:#f4f4f4; font-family:'Poppins', sans-serif;}
+header{text-align:center; padding:3rem 1rem; background:linear-gradient(180deg,#000 0%,#111 100%); border-bottom:2px solid #d4af37;}
+header h1{font-family:'Playfair Display', serif; font-size:3rem; color:#d4af37; margin-bottom:0.5rem;}
+header p{font-size:1.2rem; color:#ccc;}
+main{max-width:800px; margin:3rem auto; padding:0 1.5rem; line-height:1.8;}
+h2{font-family:'Playfair Display', serif; color:#d4af37; border-left:4px solid #d4af37; padding-left:10px; margin-bottom:1rem;}
+.about{font-size:1.1rem; color:#ddd; margin-bottom:3rem;}
+.contact{background:#111; padding:2rem; border-radius:10px; box-shadow:0 0 10px rgba(212,175,55,0.1);}
+.phone,.address,.email{font-size:1.2rem; margin-bottom:0.8rem; color:#d4af37;}
+form{display:flex; flex-direction:column;}
+input,textarea{background:#1a1a1a; color:#f4f4f4; border:1px solid #333; border-radius:6px; margin-bottom:1rem; padding:0.8rem; font-size:1rem;}
+input:focus,textarea:focus{outline:1px solid #d4af37;}
+button{background:#d4af37; color:#000; border:none; padding:0.9rem; font-weight:bold; border-radius:6px; cursor:pointer; transition:0.3s; font-size:1rem;}
+button:hover{background:#b8932c;}
+.social{text-align:center; margin-top:1.5rem;}
+.social a{display:inline-flex; align-items:center; justify-content:center; gap:0.5rem; color:#d4af37; text-decoration:none; font-weight:500; border:1px solid #d4af37; padding:0.6rem 1rem; border-radius:50px; transition:all 0.3s;}
+.social a:hover{background:#d4af37; color:#000;}
+.social svg{width:20px; height:20px; fill:currentColor;}
+iframe{width:100%; height:300px; border:none; border-radius:10px; margin-top:1rem;}
+.faq{background:#111; padding:2rem; border-radius:10px; box-shadow:0 0 10px rgba(212,175,55,0.1); margin-bottom:3rem;}
+.faq h2{margin-bottom:1rem;}
+.faq dt{font-weight:bold; margin-top:1rem;}
+.faq dd{margin-left:0; margin-bottom:1rem; color:#ddd;}
+footer{text-align:center; font-size:0.9rem; color:#888; padding:2rem 1rem; border-top:1px solid #222;}
+</style>
+</head>
+<body>
+<header>
+ <div style="
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+  margin-bottom:1.5rem;
+  text-align:center;
+">
+
+  <!-- LOGO -->
+  <svg 
+    width="55" height="55" 
+    viewBox="0 0 300 300" 
+    xmlns="http://www.w3.org/2000/svg"
+    style="flex-shrink:0;"
+  >
+    <circle cx="150" cy="150" r="140" fill="none" stroke="#D4AF37" stroke-width="20"/>
+    <rect x="115" y="70" width="70" height="160" fill="#D4AF37"/>
+    <rect x="70" y="115" width="160" height="70" fill="#D4AF37"/>
+  </svg>
+
+  <!-- HEADER -->
+  <h1 style="margin:0;">Auto-Klinika JIP</h1>
+
+</div>
+ 
+  <p>Autoservis Nový Bor • Kvalita, které můžete věřit</p>
+
+</header>
+
+<main>
+<article class="about">
+  <h2>Profesionální autoservis v Novém Boru</h2>
+  <p>
+    Auto-Klinika JIP poskytuje kompletní opravy vozidel, diagnostiku a servis všech značek.
+    Náš mladý tým klade důraz na precizní práci, moderní technologie a osobní přístup.
+    Díky férovým cenám a vysoké kvalitě se stáváme oblíbenou volbou řidičů z Nového Boru i celého Libereckého kraje.
+  </p>
+</article>
+
+<section class="contact">
+  <h2>Kontaktujte nás</h2>
+<a
+  href="https://www.facebook.com/profile.php?id=61583888906071"
+  target="_blank"
+  style="
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:#D4AF37;
+    color:#000;
+    text-decoration:none;
+    padding:8px 14px;
+    border-radius:6px;
+    font-weight:bold;
+  "
+>
+  <svg
+    width="20" height="20"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M22 12C22 6.48 17.52 2 12 2S2 6.48 2 12c0 4.99 3.66 9.12 8.44 9.88v-6.99H8.08V12h2.36V9.8c0-2.33 1.37-3.62 3.47-3.62.99 0 2.03.18 2.03.18v2.23h-1.14c-1.12 0-1.47.7-1.47 1.42V12h2.5l-.4
+2.89h-2.1v6.99C18.34 21.12 22 16.99 22 12Z"/>
+  </svg>
+
+  Facebook
+</a>
+<p></p>
+  <address class="phone">📞 +420 606 534 379</address>
+  <address class="email">✉️ autoklinikajip@gmail.com</address>
+
+<p></p>
+
+  <form action="https://formspree.io/f/mqawajwg" method="POST">
+    <input type="text" name="name" placeholder="Vaše jméno" required>
+    <input type="email" name="email" placeholder="Váš e-mail">
+    <input type="tel" name="phone" placeholder="Váš telefon">
+    <textarea name="message" rows="5" placeholder="Vaše zpráva" required></textarea>
+    <button type="submit">Odeslat</button>
+  </form>
+
+<p></p>
+
+  <address class="address">📍 Tř. T. G. Masaryka 796, 473 01 Nový Bor</address>
+
+    <!-- Google Maps Embed -->
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1036.9300689945803!2d14.5346214!3d50.7485251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f74ee6df5a435%3A0x1c34a7eb7a1b3d0c!2sT%C5%99.%20T.%20G.%20Masaryka%20796%2C%20473%2001%20Nov%C3%BD%20Bor!5e0!3m2!1scs!2scz!4v1700000000000!5m2!1scs!2scz"
+    allowfullscreen="" loading="lazy">
+  </iframe>
+</section>
+
+
+<section id="rezervace" style="margin-top:3rem;">
+  <h2>Rezervace termínu</h2>
+  <p>Podívejte se na dostupné termíny a vyberte si, co Vám vyhovuje. Aktualizace probíhá automaticky.</p>
+
+  <iframe 
+    src="https://calendar.google.com/calendar/embed?src=47346a04367093d8df1e41c285bd07ed4894eb43667ac8063610fa3c79eda3ac@group.calendar.google.com&mode=AGENDA&showTabs=0&showPrint=0&showCalendars=0&ctz=Europe%2FPrague" 
+    style="border:0; width:100%; height:600px;" 
+    frameborder="0" 
+    scrolling="no">
+  </iframe>
+</section>
+
+
+<section class="faq">
+  <h2>Často kladené otázky (FAQ)</h2>
+  <dl>
+    <dt>Jaké značky vozidel servisujete?</dt>
+    <dd>Servisujeme Škoda, Mercedes, i ostatní běžné značky osobních vozidel.</dd>
+
+    <dt>Poskytujete sezonní přezutí a uskladnění pneumatik?</dt>
+    <dd>Ano, nabízíme kompletní pneuservis včetně uskladnění pneumatik během zimní i letní sezóny.</dd>
+
+    <dt>Jak se mohu objednat na servis?</dt>
+    <dd>Objednat se můžete telefonicky, e-mailem nebo pomocí kontaktního formuláře na našich stránkách.</dd>
+
+    <dt>Kdo je majitelem Auto-Kliniky JIP?</dt>
+    <dd>Majitelem a hlavním mechanikem je <strong>Jiří Pelikán</strong>, který vede tým profesionálů s vášní pro auta.</dd>
+
+    <dt>Jaké další služby poskytujete?</dt>
+    <dd>Provádíme kompletní opravy vozidel, diagnostiku, údržbu, kontrolu a opravy brzd, výměnu oleje a další běžné servisní práce.</dd>
+  </dl>
+</section>
+</main>
+
+<footer>
+  © 2025 Auto-Klinika JIP • Tř. T. G. Masaryka 796, Nový Bor
+</footer>
+</body>
+</html>
